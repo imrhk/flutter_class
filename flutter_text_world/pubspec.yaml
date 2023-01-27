@@ -1,0 +1,60 @@
+name: flutter_text_world
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  external_font_plugin:
+    path: ./external_font_plugin
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  go_router: ^6.0.1
+  google_fonts: ^3.0.1
+  intl: ^0.17.0
+  url_launcher: ^6.1.8
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: FiraSansCondensed
+      fonts:
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-Black.ttf
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-BlackItalic.ttf
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-Bold.ttf
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-BoldItalic.ttf
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-ExtraBold.ttf
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-ExtraBoldItalic.ttf
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-ExtraLight.ttf
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-ExtraLightItalic.ttf
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-Italic.ttf
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-Light.ttf
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-LightItalic.ttf
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-Medium.ttf
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-MediumItalic.ttf
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-Regular.ttf
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-SemiBold.ttf
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-SemiBoldItalic.ttf
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-Thin.ttf
+        - asset: fonts/regular/Fira_Sans_Condensed/FiraSansCondensed-ThinItalic.ttf
+
+    - family: Sono
+      fonts:
+        - asset: fonts/variable/Sono/Sono-VariableFont_MONO,wght.ttf
+
+  assets:
+    - assets/images/
+
+  generate: true
